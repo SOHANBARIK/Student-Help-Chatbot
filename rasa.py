@@ -30,7 +30,7 @@ st.markdown(
             z-index: 1000;
         }
 
-        /* Fixed "Made with ❤️ for Bharat" at the bottom-center */
+        /* Fixed "Made with ❤️ for Sohan" at the bottom-center */
         .fixed-bottom {
             position: fixed;
             bottom: 10px;
@@ -125,7 +125,7 @@ st.markdown(
 )
 #"https://openrouter.ai/api/v1/chat/completions"
 # OpenRouter API details
-API_KEY = "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"
+API_KEY = "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"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 headers = {
     "Authorization": f"Bearer {API_KEY}",
@@ -180,4 +180,5 @@ with send_col[1]:
             st.rerun()
 
 # Footer
+
 st.markdown("<hr>", unsafe_allow_html=True)
